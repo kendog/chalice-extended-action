@@ -1,4 +1,11 @@
-# Chalice Extended Action
+# Chalice Extended Action - kendog Edition
+
+This is a fork from jayef0/chalice-extended-action
+
+kendog updates:
+- Python 3.8 upgrade
+
+-----
 
 This Github action allows automated deployment of your Chalice application via Github Actions.
 
@@ -43,7 +50,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: chalice deploy
-      uses: jayef0/chalice-extended-action@release-v0.2.1
+      uses: kendog/chalice-extended-action@release-v1
       env:
         WORKING_DIRECTORY: backend/chalice
         REQUIREMENTS_FILE: requirements.prod.txt
@@ -51,7 +58,7 @@ jobs:
         STAGE: dev
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: us-east-1
+        AWS_DEFAULT_REGION: us-west-2
 ```
 
 ## Functionality
