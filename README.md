@@ -1,10 +1,11 @@
-# Chalice Extended Action - kendog Fork You Edition
+# Chalice Extended Action - kendog forked you edition
 
 ---
 This is a fork from jayef0/chalice-extended-action
 
 Updates:
 - Python 3.8 upgrade
+- README - Usage
 ---
 
 This Github action allows automated deployment of your Chalice application via Github Actions.
