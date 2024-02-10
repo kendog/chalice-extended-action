@@ -1,7 +1,7 @@
 # What the Fork?
 This is a fork from [jayef0/chalice-extended-action](https://github.com/jayef0/chalice-extended-action).
 
-It is the best one out there for Chalice.  Unfortunatly it hasn't been updated in 3 years.
+I used this action all the time, it is the best for Chalice automated deployment.  Unfortunatley it hasn't been updated in 3 years.
 
 My Updates:
 - Python 3.8 upgrade
